@@ -31,4 +31,8 @@ O sistema consiste em 3 telas simples:
 
 2. Tela para cadastrar um pedido novo, com filtro de produtos por id ou nome do produto ao adicionar um novo item.
 
+![](https://files.fm/thumb_show.php?i=eddy7e3sr)
+
 3. Tela para visualizar os detalhes do pedido.
+
+![](https://files.fm/thumb_show.php?i=u79fk6vrd)
