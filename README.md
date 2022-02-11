@@ -19,11 +19,15 @@ Após a instalação, você pode executar o sistema através do comando:
   foo@bar:~$ npm start
 ```
 
+No arquivo **Sales.sql** tem  a estrutura do banco de dados. Também é necessário ter o MySql instalado e criar o banco de dados conforme essa estrutura.
+
 ### Sobre o sistema
 
 O sistema consiste em 3 telas simples:
 
 1. Tela que contém uma listagem de todos os pedidos salvos no banco de dados com filtro de pedidos por id ou nome do cliente.
+
+(https://1drv.ms/u/s!AtZ7-x1OMgXbskbCJ1sSpSMeVZBq?e=hRVq21)
 
 2. Tela para cadastrar um pedido novo, com filtro de produtos por id ou nome do produto ao adicionar um novo item.
 
