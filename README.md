@@ -27,7 +27,7 @@ O sistema consiste em 3 telas simples:
 
 1. Tela que contém uma listagem de todos os pedidos salvos no banco de dados com filtro de pedidos por id ou nome do cliente.
 
-(https://1drv.ms/u/s!AtZ7-x1OMgXbskbCJ1sSpSMeVZBq?e=hRVq21)
+![](https://files.fm/thumb_show.php?i=2t93hh5w9)
 
 2. Tela para cadastrar um pedido novo, com filtro de produtos por id ou nome do produto ao adicionar um novo item.
 
