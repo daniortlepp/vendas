@@ -38,6 +38,7 @@ const AddOrder = (props) => {
   };
 
   const formatCurrency = (vl) => {
+    vl = parseFloat(vl);
     vl = vl.toFixed(2);
     vl = vl.toString().replace(".", ",");
     return 'R$ ' + vl;
@@ -69,11 +70,9 @@ const AddOrder = (props) => {
         let respondeData = response.data;
         let productsList = [];
         respondeData.forEach(item => {
-            item.price = formatCurrency(item.price);
             productsList.push(item);
         });
         setProducts(productsList);
-        console.log(productsList);
       })
       .catch((e) => {
         console.log(e);
@@ -308,7 +307,7 @@ const AddOrder = (props) => {
                     <tr key={item.id}>
                       <td style={{textAlign: 'center'}}>{item.id}</td>
                       <td>{item.name}</td>
-                      <td style={{textAlign: 'right'}}>{item.price}</td>
+                      <td style={{textAlign: 'right'}}>{formatCurrency(item.price)}</td>
                       <td style={{textAlign: 'center'}}><input id={"quantity"+item.id} name={"quantity"+item.id} type="text" className="form-control" style={{width: '100px'}}/></td>
                       <td style={{textAlign: 'center'}}><Button variant="primary" onClick={() => addItem(item.id, item.name, item.price)}>Adicionar</Button></td>
                     </tr>
